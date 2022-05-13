@@ -3,6 +3,7 @@
     "outDir": "./dist",
     "target": "ES2021",
     "module": "CommonJS",
-    "allowJs": true
+    "allowJs": true,
+    "strictNullChecks": true
   }
 }
