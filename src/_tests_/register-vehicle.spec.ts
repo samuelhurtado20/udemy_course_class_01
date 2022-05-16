@@ -1,5 +1,6 @@
 import { RegisterVehicle } from '../controllers/register-vehicle'
 import { MissingFormalParameter } from '../errors/client-error'
+import { VehicleHelper } from '../helpers/vehicle-model-helper'
 import { Vehicle } from '../models/vehicle-model'
 
 describe('Register vehicle', () => {
@@ -55,5 +56,11 @@ describe('Register vehicle', () => {
     expect(vehicle.getName()).toEqual('Name')
     expect(vehicle.getModel()).toEqual('Kia Picanto')
     expect(vehicle.getPrice()).toEqual(13.000)
+  })
+
+  it('Class helper ', () => {
+    const vehicleHelper = new VehicleHelper()
+
+    expect(vehicleHelper).toEqual(new VehicleHelper())
   })
 })

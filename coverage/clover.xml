@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652727532684" clover="3.2.0">
-  <project timestamp="1652727532684" name="All files">
-    <metrics statements="64" coveredstatements="51" conditionals="16" coveredconditionals="14" methods="11" coveredmethods="9" elements="91" coveredelements="74" complexity="0" loc="64" ncloc="64" packages="6" files="7" classes="7"/>
+<coverage generated="1652731585847" clover="3.2.0">
+  <project timestamp="1652731585847" name="All files">
+    <metrics statements="56" coveredstatements="56" conditionals="14" coveredconditionals="14" methods="9" coveredmethods="9" elements="79" coveredelements="79" complexity="0" loc="56" ncloc="56" packages="5" files="6" classes="6"/>
     <package name="controllers">
       <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="register-vehicle.ts" path="/Users/samuelhurtado/Documents/Practice/first_course_udemy/class_01/src/controllers/register-vehicle.ts">
@@ -49,28 +49,14 @@
       </file>
     </package>
     <package name="helpers">
-      <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="vehicle-model-helper.ts" path="/Users/samuelhurtado/Documents/Practice/first_course_udemy/class_01/src/helpers/vehicle-model-helper.ts">
-        <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="interfaces">
-      <metrics statements="8" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="http-interface.ts" path="/Users/samuelhurtado/Documents/Practice/first_course_udemy/class_01/src/interfaces/http-interface.ts">
-        <metrics statements="8" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
     <package name="models">
