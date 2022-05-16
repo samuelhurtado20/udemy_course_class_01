@@ -5,4 +5,8 @@ export class Vehicle {
   getName (): string { return this.vehicleHelper.name }
   getModel (): string { return this.vehicleHelper.model }
   getPrice (): number { return this.vehicleHelper.price }
+
+  getVehicle (): any {
+    return Object.assign(this, this.vehicleHelper)
+  }
 }

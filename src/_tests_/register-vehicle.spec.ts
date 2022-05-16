@@ -51,7 +51,7 @@ describe('Register vehicle', () => {
       model: 'Kia Picanto',
       price: 13.000
     })
-
+    expect(vehicle.getVehicle()).toEqual(vehicle)
     expect(vehicle.getName()).toEqual('Name')
     expect(vehicle.getModel()).toEqual('Kia Picanto')
     expect(vehicle.getPrice()).toEqual(13.000)
