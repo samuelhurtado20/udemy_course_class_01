@@ -25,3 +25,9 @@ export class ContractModel {
     return this.contract.monthlyCost
   }
 }
+
+export class ContractPrime extends ContractModel {
+  monthlyDiscount (): number {
+    return this.contract.monthlyCost * 0.10
+  }
+}
